@@ -2,6 +2,10 @@
 
 Personal website of Stylianos Sarantellis Komninellis.
 
+## Theme
+
+This site uses the [Hugo Split theme](https://themes.gohugo.io/themes/hugo-split-theme/), the source and instructions of which can be found [here](https://github.com/escalate/hugo-split-theme). It is configured as a Hugo theme using a git submodule roughly according to the [Hugo Quick start guide](https://gohugo.io/getting-started/quick-start/#explanation-of-commands).
+
 ## Hosting & Deployment
 
 The site is hosted by [GitHub pages](https://pages.github.com/) and is available by default at https://stylianos-sk.github.io/website/ .
