@@ -1,4 +1,40 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Stylianos Sarantellis Komninellis'
 theme = 'split'
+disableKinds = ["section", "taxonomy", "RSS", "sitemap"]
+disableHugoGeneratorInject = true
+
+copyright = "&copy;2025 Stylianos Sarantellis Komninellis"
+
+[params]
+
+  author = "Stylianos Sarantellis Komninellis"
+  description = "Welcome to the website of Stylianos!"
+  shareImage = "images/social.jpg"
+  twitterHandle = "stylianosstylianosstylianosstylianos"
+
+  licensed = false
+
+  favicon = "favicon.ico"
+
+  [params.visual]
+
+    [params.visual.image]
+      enable = true
+      file = "images/photo.jpg"
+      position = "center center"
+
+  [[params.links]]
+    [params.links.list1]
+      heading = "Contact"
+
+      [[params.links.list1.link]]
+        text = "LinkedIn"
+        url = "https://uk.linkedin.com/in/stylianos-sarantellis-komninellis-104495217"
+        new_tab = true
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "mailto:hello@stylianos.com"
+
