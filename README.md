@@ -39,4 +39,4 @@ All content in this repository and on the website apart from the theme is copyri
 - [x] Deploy to a custom domain
 - [ ] Update the main text
 - [ ] Fix the contact and other links
-
+- [ ] Add the social preview image
