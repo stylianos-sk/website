@@ -5,7 +5,7 @@ theme = 'split'
 disableKinds = ["section", "taxonomy", "RSS", "sitemap"]
 disableHugoGeneratorInject = true
 
-copyright = "&copy;2025 Stylianos Sarantellis Komninellis"
+copyright = "&copy;<span id='copyright-year'>2026</span> Stylianos Sarantellis Komninellis<script>document.getElementById('copyright-year').textContent=new Date().getFullYear();</script>"
 
 [params]
 
@@ -37,4 +37,3 @@ copyright = "&copy;2025 Stylianos Sarantellis Komninellis"
       [[params.links.list1.link]]
         text = "Email"
         url = "mailto:hello@stylianos.com"
-
